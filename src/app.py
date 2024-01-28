@@ -2,7 +2,7 @@ from textual.app import App, ComposeResult
 from textual.widgets import Static
 
 
-class Mine(App):
+class MyTOTP(App):
 
     BINDINGS = [("d", "toggle_dark", "Toggle dark mode")]
 
@@ -13,5 +13,5 @@ class Mine(App):
         self.dark = not self.dark
 
 if __name__ == "__main__":
-    app = Mine()
+    app = MyTOTP()
     app.run()
