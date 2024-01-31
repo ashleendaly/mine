@@ -32,7 +32,7 @@ class Authenticator(Static):
         yield Button("Get New TOTP", id="get-new-totp", variant="success")
         yield TOTPDisplay()
 
-class TerminalFA(App):
+class TerminalOTP(App):
     """A Textual app to perform 2FA."""
 
     CSS_PATH = "terminal-fa.tcss"
@@ -47,5 +47,5 @@ class TerminalFA(App):
         self.dark = not self.dark
 
 if __name__ == "__main__":
-    app = TerminalFA()
+    app = TerminalOTP()
     app.run()
