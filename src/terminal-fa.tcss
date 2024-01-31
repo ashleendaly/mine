@@ -1,0 +1,27 @@
+Authenticator {
+    layout: horizontal;
+    background: $boost;
+    height: 5;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+
+Button {
+    width: 16;
+}
+
+TOTPDisplay {
+    content-align: center middle;
+    height: 3;
+}
+
+Label {
+    border: wide white 10%;
+    height: 3;
+    width: auto;
+}
+
+#get-new-totp {
+    dock: right;
+}
