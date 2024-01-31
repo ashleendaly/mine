@@ -8,8 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pyotp = "^2.9.0"
-qrtools = "^0.0.2"
 textual = "^0.47.1"
+python-dotenv = "^1.0.1"
+textual-dev = "^1.4.0"
 
 
 [build-system]
